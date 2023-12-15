@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="signin.css">
+
+    <script src="signin.js"></script>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Sign up</h1>
+
+        <div class="error"></div>
+        <div class="input-group">
+            <label for="name">Name :</label>
+            <input type="text" id="name" required>
+        </div>
+        <div class="input-group">
+            <label for="lname">Last Name :</label>
+            <input type="text" id="lname" required>
+        </div>
+        <div class="input-group">
+            <label for="age">Age :</label>
+            <input type="number" id="age" min="18" max="45" required>
+        </div>
+        <div class="input-radio">
+            <label>sex :</label>
+            <label>
+                <input type="radio" name="sex" class="sex">
+                <span>Male</span>
+            </label>
+            <label>
+                <input type="radio" name="sex" class="sex">
+                <span>Female</span>
+            </label>
+        </div><br>
+        <div class="input-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+        </div>
+        <div class="input-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+        </div>
+        <button type="submit" class="btn" id="signInBtn"><span>Sign up</span></button>
+        <br>
+        <span><a href=" login.html">log in</a></span>
+        <br>
+        <a href="../home/home.html">continue without login in</a>
+    </div>
+
+</body>
+
+</html>
